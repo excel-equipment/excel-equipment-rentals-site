@@ -4,28 +4,80 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Excel Trailer & Equipment Rental</title>
-  <meta name="description" content="Trailer & equipment rentals. Call/text for availability and pricing." />
-  <style>
-    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; }
-    header {
-  padding: 100px 20px;
-  background: url('Excel_Equipment_Rental8.jpg') center center / cover no-repeat;
-  color: #fff;
-  text-align: center;
-}
+  <meta name="description" content="Trailer & equipment rentals in the Inland Empire. Call/text for availability and pricing." />
 
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; line-height: 1.5; background:#fff; }
     main { max-width: 900px; margin: 0 auto; padding: 24px 20px; }
-    .card { border: 1px solid #ddd; border-radius: 10px; padding: 16px; margin: 12px 0; }
-    .cta { display:inline-block; padding:12px 16px; border-radius:10px; background:#111; color:#fff; text-decoration:none; margin-right:10px;}
-    .muted { color:#666; }
+
+    /* HERO */
+    header {
+      padding: 24px 20px 18px;
+      background: #111;
+      color: #fff;
+      text-align: center;
+    }
+    /* Keep an H1 for SEO, but don't show it (image already has the big text) */
+    header h1 {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    .hero-img {
+      max-width: 1100px;
+      width: 100%;
+      height: auto;
+      border-radius: 14px;
+      display: block;
+      margin: 0 auto 14px;
+      background: #fff;
+    }
+
+    .hero-sub {
+      margin: 0 0 14px;
+      color: rgba(255,255,255,0.9);
+      font-size: 16px;
+    }
+
+    .cta {
+      display: inline-block;
+      padding: 12px 16px;
+      border-radius: 12px;
+      background: #fff;
+      color: #111;
+      text-decoration: none;
+      margin: 0 8px 10px;
+      font-weight: 700;
+      border: 1px solid rgba(255,255,255,0.25);
+    }
+    .cta:hover { opacity: 0.92; }
+
+    /* CONTENT */
+    .card {
+      border: 1px solid #ddd;
+      border-radius: 12px;
+      padding: 16px;
+      margin: 12px 0;
+      background: #fff;
+    }
+
     footer { padding: 24px 20px; border-top: 1px solid #eee; }
-    h1 { margin: 0 0 8px; }
+    .muted { color: #666; }
   </style>
 </head>
+
 <body>
   <header>
-    <h1></h1>
-    <p class="muted">Fast, straightforward rentals. Call/text for availability.</p>
+    <h1>Excel Trailer & Equipment Rental</h1>
+
+    <!-- Use your graphic as an IMG (no cropping) -->
+    <img class="hero-img" src="Excel_Equipment_Rental8.jpg" alt="Excel Equipment Rental - Trailers and Equipment" />
+
+    <p class="hero-sub">Fast, straightforward rentals. Call/text for availability.</p>
+
     <a class="cta" href="tel:+19092407255">Call Now</a>
     <a class="cta" href="sms:+19092407255">Text Now</a>
   </header>
@@ -40,12 +92,12 @@
 
     <div class="card">
       <h3>Equipment</h3>
-      <p>Bobcat S630 Skid steer / attachments.</p>
+      <p>Bobcat S630 skid steer / attachments.</p>
     </div>
 
     <div class="card">
       <h3>Flatbeds / Utility Trailers / Vehicle Hauling Trailers</h3>
-      <p>For Transporting materials, equipment, and more.</p>
+      <p>For transporting materials, equipment, and more.</p>
     </div>
 
     <h2>Service area</h2>
@@ -53,7 +105,7 @@
 
     <h2>Get a quote</h2>
     <p>
-      Call/text: <strong>+1(909)240-7255</strong><br/>
+      Call/text: <strong>(909) 240-7255</strong><br/>
       Email: <strong>rentals@excelequipmentsolutions.net</strong>
     </p>
   </main>
